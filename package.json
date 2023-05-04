@@ -1,0 +1,21 @@
+{
+  "name": "vectordb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "weaviate-ts-client": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
