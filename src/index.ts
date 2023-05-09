@@ -5,11 +5,11 @@ import { getResult } from "./testImage";
 import { deletechema } from "./deleteClass";
 import { showClasses } from "./showClasses";
 
-const className = "Test3";
-// await createSchema(className);
-// await addImages(className);
-// await getResult(className);
+const className = "Test1";
+await createSchema(className);
+await addImages(className);
+await getResult(className);
 
-await deletechema(className);
+// await deletechema(className);
 
 // await showClasses();
