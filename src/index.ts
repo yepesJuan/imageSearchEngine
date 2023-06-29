@@ -7,9 +7,9 @@ import { showClasses } from "./showClasses";
 
 const className = "Test1";
 await createSchema(className);
-await addImages(className);
-await getResult(className);
+// await addImages(className);
+// await getResult(className);
 
 // await deletechema(className);
 
-// await showClasses();
+await showClasses();
